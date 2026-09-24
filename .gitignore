@@ -1,0 +1,52 @@
+# ============================================================
+#  EqD Trading Academy — o que NÃO vai para o GitHub
+# ============================================================
+
+# --- Progresso pessoal (SQLite + backups automáticos) ---------
+# Fica só no seu computador. Para levar o progresso para outra
+# máquina, use Configurações → Exportar progresso (JSON).
+data/
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Exportações feitas pelo app (progresso e caderno de notas)
+eqd-progresso-*.json
+caderno-eqd*.md
+
+# --- Livros (PDFs com direitos autorais) ----------------------
+# A pasta Books vai só com o aviso; os PDFs ficam locais.
+Books/*
+!Books/COLOQUE-OS-PDFS-AQUI.txt
+*.pdf
+*.PDF
+
+# --- Pacotes e entregas antigas -------------------------------
+Claude outputs/
+*.zip
+
+# --- Python ---------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Editores / IDEs ------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Sistema operacional --------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# --- Logs e temporários ---------------------------------------
+*.log
+*.tmp
